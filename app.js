@@ -1,5 +1,5 @@
 alert('Boas vindas ao jogo do número secreto!');
-let mumeroMaximo = 300;
+let mumeroMaximo = 50;
 let numeroSecreto =  parseInt(Math.random () * mumeroMaximo + 1); // gera um número aleatório entre 1 e numeroMaximo.
 console.log(numeroSecreto);
 let chute;
